@@ -31,7 +31,7 @@ form {
   max-width: 31.25em;
 }
 
-/*label {
+label {
   display: flex;
   position: relative;
   margin-bottom: 0.75em;
@@ -39,7 +39,8 @@ form {
   font-family: 'Helvetica', sans-serif;
   transition: color 0.15s ease-out;
 }
-label:active {
+
+/*label:active {
   -webkit-transform: translateY(0.03125em);
           transform: translateY(0.03125em);
 }
