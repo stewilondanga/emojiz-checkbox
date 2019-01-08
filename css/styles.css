@@ -79,10 +79,11 @@ label:after {
   display: none;
 }
 
-/*[type="checkbox"]:checked + label {
+[type="checkbox"]:checked+label {
   color: peru;
 }
-[type="checkbox"]:checked + label:before {
+
+/*[type="checkbox"]:checked + label:before {
   background-color: lightyellow;
   border-color: darkkhaki;
   box-shadow: rgba(0, 0, 0, 0.2) 0 0.1875em 0.375em -0.1875em;
