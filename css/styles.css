@@ -83,12 +83,13 @@ label:after {
   color: peru;
 }
 
-/*[type="checkbox"]:checked + label:before {
+[type="checkbox"]:checked+label:before {
   background-color: lightyellow;
   border-color: darkkhaki;
   box-shadow: rgba(0, 0, 0, 0.2) 0 0.1875em 0.375em -0.1875em;
 }
-[type="checkbox"]:checked + label:after {
+
+/*[type="checkbox"]:checked + label:after {
   opacity: 1;
   -webkit-transform: translateY(0);
           transform: translateY(0);
