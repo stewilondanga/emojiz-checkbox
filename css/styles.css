@@ -45,7 +45,7 @@ label:active {
   transform: translateY(0.03125em);
 }
 
-/*label:before {
+label:before {
   content: '';
   display: block;
   position: absolute;
@@ -58,7 +58,8 @@ label:active {
   box-shadow: rgba(0, 0, 0, 0.1) 0 0 0 0;
   transition: border-color 0.15s ease-out, box-shadow 0.15s ease-out;
 }
-label:after {
+
+/*label:after {
   content: '🙂';
   position: absolute;
   top: 0.25em;
