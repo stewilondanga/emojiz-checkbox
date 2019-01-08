@@ -145,39 +145,49 @@ label:after {
   }
 }
 
-/*@keyframes emoji-in {
+@keyframes emoji-in {
   10% {
     content: "😆";
   }
+
   10% {
     content: "😆";
   }
+
   20% {
     content: "😄";
   }
+
   30% {
     content: "😁";
   }
+
   50% {
     content: "🙂";
   }
+
   60% {
     content: "🙂";
   }
+
   70% {
     content: "😉";
   }
+
   80% {
     content: "😉";
   }
+
   90% {
     content: "🙂";
   }
+
   100% {
     content: "🙂";
   }
 }
-@-webkit-keyframes emoji-out {
+
+/*@-webkit-keyframes emoji-out {
   from {
     content: "😕";
   }
