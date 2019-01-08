@@ -187,15 +187,17 @@ label:after {
   }
 }
 
-/*@-webkit-keyframes emoji-out {
+@-webkit-keyframes emoji-out {
   from {
     content: "😕";
   }
+
   to {
     content: "☹️";
   }
 }
-@keyframes emoji-out {
+
+/*@keyframes emoji-out {
   from {
     content: "😕";
   }
