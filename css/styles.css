@@ -197,16 +197,17 @@ label:after {
   }
 }
 
-/*@keyframes emoji-out {
+@keyframes emoji-out {
   from {
     content: "😕";
   }
+
   to {
     content: "☹️";
   }
 }
 
-.containers {
+/*.containers {
   width: 520px;
   margin: 20px auto;
 }
