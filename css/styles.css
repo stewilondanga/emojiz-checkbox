@@ -75,10 +75,11 @@ label:after {
   transition: opacity 0.15s 0.3s ease-out, transform 0.2s 0.3s ease-out, -webkit-transform 0.2s 0.3s ease-out;
 }
 
-/*[type="checkbox"] {
+[type="checkbox"] {
   display: none;
 }
-[type="checkbox"]:checked + label {
+
+/*[type="checkbox"]:checked + label {
   color: peru;
 }
 [type="checkbox"]:checked + label:before {
