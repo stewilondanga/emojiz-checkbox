@@ -59,7 +59,7 @@ label:before {
   transition: border-color 0.15s ease-out, box-shadow 0.15s ease-out;
 }
 
-/*label:after {
+label:after {
   content: '🙂';
   position: absolute;
   top: 0.25em;
@@ -67,15 +67,15 @@ label:before {
   font-size: 1.25em;
   opacity: 0;
   -webkit-transform: translateY(0.1875em);
-          transform: translateY(0.1875em);
+  transform: translateY(0.1875em);
   -webkit-animation: emoji-out 0.5s forwards;
-          animation: emoji-out 0.5s forwards;
+  animation: emoji-out 0.5s forwards;
   transition: opacity 0.15s 0.3s ease-out, -webkit-transform 0.2s 0.3s ease-out;
   transition: opacity 0.15s 0.3s ease-out, transform 0.2s 0.3s ease-out;
   transition: opacity 0.15s 0.3s ease-out, transform 0.2s 0.3s ease-out, -webkit-transform 0.2s 0.3s ease-out;
 }
 
-[type="checkbox"] {
+/*[type="checkbox"] {
   display: none;
 }
 [type="checkbox"]:checked + label {
