@@ -40,11 +40,12 @@ label {
   transition: color 0.15s ease-out;
 }
 
-/*label:active {
+label:active {
   -webkit-transform: translateY(0.03125em);
-          transform: translateY(0.03125em);
+  transform: translateY(0.03125em);
 }
-label:before {
+
+/*label:before {
   content: '';
   display: block;
   position: absolute;
